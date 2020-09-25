@@ -1,0 +1,958 @@
+ls
+echo $SHELL
+whoami
+echo $TERM
+echo $USER
+echo "mi usuario es $USER"
+echo $
+echo holi
+echo $"USER"
+mivariable=42
+echo $mivariable
+date
+echo "hoy es el d\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+´\
+otra linea"
+cd Data/shell
+cd Da
+ls
+cat Text_example.txt
+cat -n Text_example.txt
+cat-n Text_example.txt Text_example.txt Text_example.txt
+pwd
+ git
+git clone https://github.com/IgorAramb/DS_CL_files.git
+ls
+cd DS_CL_files
+ls
+man
+man ls
+git config --global user.name "Laurajimo"
+git config --global user.email "laura.jim.mor@gmail.com"
+git clone https://github.com/Laurajimo/master-kschool.git
+LS
+ls
+cat README.md
+touch nuevoarchivo
+touch modelomlparaconquistarelmundo
+git
+git config --global user.name "Laurajimo"
+git config --global user.email "laura.jim.mor@gmail.com"
+cat .gitconfig
+cd
+git config --global user.name "Laura"
+cat .gitconfig
+gedit .config
+gedit .gitconfig
+ls
+mkdir Repos
+cd Repos
+git clone https://github.com/Laurajimo/master-kschool.git
+https://github.com/Laurajimo/master-kschool.git Otro_dir_name
+git https://github.com/Laurajimo/master-kschool.git Otro_dir_name
+git clone https://github.com/Laurajimo/master-kschool.git Otro_dir_name
+ls
+pwd
+git clone https://github.com/Laurajimo/master-kschool.git ../Pictures/nombre_repos_2
+ls ../Pictures/
+ls
+git init Master_class_local_start
+ll
+cd Master_class_local_start
+git status
+touch first_file.txt
+touch second_file
+ll
+gedit first_file.txt
+git add first_file.txt
+git status
+git add second_file
+git status
+git commit -m "first commit"
+git status
+git log
+gedit first_file.txt
+git add -u
+git status
+git commit
+git log
+git remote -v
+git remote add origin https://github.com/Laurajimo/Local_init.git
+git remote -v
+git branch -M master
+git push -u origin master
+cd 
+cat .history
+cd Repos
+git clone https://github.com/Laurajimo/Command_lines_MasterDS.git
+cd Command_lines_MasterDS
+cp ~/.history .
+ll
+ls -a
+git add .history
+git commit -m "first 5h of master"
+gedit .history
+ls -a
+git push
+cp ~/.history History
+cp ~/.history .
+git add -u
+cd
+mkdir first_dir
+ls
+cd first_dir
+touch text_file.txt
+ll
+ls
+ls -l
+chmod 674
+chmod 674 text_file.txt
+chmod 676 text_file.txt
+ls -l
+mkdir sub1
+mkdir sub2 and text_file
+ls
+cp -p text_file.txt text_file
+ls
+cd text_file
+ls
+mv text_file.txt sub2/text_file.txt.2
+mv text_file.txt sub2 /text_file.txt.2
+mv text_file.txt sub2
+ls sub2
+cd first dir
+ls
+ls -l
+cd first_dir
+cd
+ls
+cd first_dir
+mv text_file.txt sub2
+ls sub2
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+mv sub2/text_file.txt sub2/text_file.txt.backup
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls -a
+rm -r sub2
+ll
+cd
+cd Repos/Command_lines_MasterDS
+cp ~/.history .
+git add -u
+git commit -m "Quick exercise --> $(date)"
+cd
+ll
+alias
+alias gl="git log"
+gl
+cd
+cd Repos/Command_lines_MasterDS
+alias gc='git commit -m'
+gc
+cd
+which ll
+which cd
+which git
+which python
+whereis python
+sudo which python
+echo This IS all very very nice
+kghlslgf
+which git
+git config --global user.email "laura.jim.mor@gmail.com"
+cd Repos/Command_lines_MasterDS
+cp
+cd
+Repos/
+cd Repos/Command_lines_MasterDS
+cd
+cd Data/opentraveldata
+ll
+head optd_aircraft.csv
+head 3 optd_aircraft.csv
+head -n 3 optd_aircraft.csv
+head -3 optd_aircraft.csv
+wc optd_aircraft.csv
+wc -w optd_aircraft.csv
+cat optd_aircraft.csv
+wc optd_aircraft.csv
+cat optd_aircraft.csv | wc
+cat optd_aircraft.csv | wc | wc
+cat optd_aircraft.csv | wc | wc | wc
+head -3 optd_aircraft.csv
+head -3 optd_aircraft.csv | wc
+head -8 optd_aircraft.csv
+head -8 optd_aircraft.csv | tail -1
+cat -n optd_aircraft.csv
+cat -n optd_aircraft.csv | head -8
+cat -n optd_aircraft.csv | head -8 | tail -1
+echo Test
+echo Test > test_file
+cat test_file
+echo Test2>test_file
+cat test_file
+echo Test3 >>test_file
+cat test_file
+<test_file wc
+cat test_fileç
+cat test_file
+cat -n optd_aircraft.csv | head -8 | tail -1
+cat -n optd_aircraft.csv | head -8 | tail -1 >line_number8.csv
+cat line_number8.csv
+cd
+cd Data/shell
+ls
+cat -5 Finn.txt| wc
+cat -5 Finn.txt | wc
+head -5 Finn.txt | wc -l
+head -5 Finn.txt | wc -w
+tail -20 ~/.history > last_20_commands
+echo "This file is created by Laurajimo on:(date)" >author_date_file
+ls
+cat author_date_file
+echo "This file is created by Laurajimo on:(@date)" >author_date_file
+cat author_date_file
+echo "This file is created by Laurajimo on:"(@date) >author_date_file
+echo "This file is created by Laurajimo on:"(date) >author_date_file
+echo "This file is created by Laurajimo on:"$(date) >author_date_file
+cat author_date_file
+cd
+find
+find .
+cd Repos
+find .
+find . | wc
+cd
+find ./Repos/Master_class_local_start | wc
+find . -name "text_file"
+find . -iname "text_file"
+find . -type -d -iname "text_file"
+find -type -d -iname "text_file"
+find . -maxdepth 1 -type d -iname "text_file"
+find . -type d -iname "text_file"
+find . -iname "text_file*"
+find . -iname "text_file*" -perm 777
+find . -iname "text_file*" ! -perm 777
+find . -iname "text_file*" ! -empty
+find . -maxdepth 3 -size +10M
+find . -maxdepth 3 -mmin -60
+cd Data
+find . -type f -iname "*.csv"
+find . -type f -iname "*.csv" | wc
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \;
+echo this ; echo that
+echo this \; echo that
+find . -type f -iname "*.csv" -exec ls -l [] \;
+find . -type f -iname "*.csv" -exec ls -l {  \;
+find . -type f -iname "*.csv" -exec head -2 {  \; | wc
+find . -type f -iname "*.csv" -exec ls -l {  \; -exec head -2 { \; | wc
+find . -type f -iname "*.csv" -exec ls -l {  \; -exec head -2 { \; | less -S
+find . -type f -iname "*.csv" -exec ls -l { | wc \;
+find . -type f -iname "*.csv" -exec zsh -c "ls -l { | wc" \;
+bash
+echo $1
+cd
+find . -maxdepth 2 -mmin -60
+find . -maxdepth 2 -empty -perm 770
+find . -empty -perm 770
+find . -empty -perm 770 -ok o+rwx 
+find . -empty -perm 770 -ok o+rwx \;
+find . -type f -maxdepth 2 -mmin -60
+find . -maxdepth 2 -type f -mmin -60
+find . -maxdepth 2 type f -empty ! -perm 777
+find . -maxdepth 2 -type f -empty ! -perm 777
+ls
+find . -maxdepth 2 -type f -empty ! -perm 777 -ok chmod 777 { \;
+cd Data
+ls
+ll
+ls -l
+ls -s
+ls -a
+find . -type d
+find . -type d -exec
+ls -lS
+find . -type d
+find . -mindept 1 -type d -exec ls -lS { \;
+echo "te oordena los ficheros dentro de cada directorio"
+find . -mindept 1 -type d -exec ls -lS { | head -3 \;
+find . -mindept 1 -type d -exec echo { \; -exec zsh -c "ls -lS { | head -4 \;
+find . -mindept 1 -type d -exec echo { \; -exec zsh -c "ls -lSh { | head -4 \;
+find . -mindept 1 -type d -exec echo { \; -exec zsh -c "ls -lS { | head -4 \;
+find . -mindept 1 -type d -exec echo { \; -exec zsh -c "ls -lSh { | head -4" \;
+
+
+
+exit
+
+
+
+cd ../Repos/Command_lines_MasterDS/
+cp ~/.history
+git add -u
+gc "Command find"
+gc "command find"
+git commit -m "Command find"
+git push
+cd
+echo $SHELL
+echo $TERM
+echo $HOST
+echo $USER
+echo Laura
+echo SHELL
+whoami
+printenv
+FIRST_NAME= laura
+FIRST_NAME= 'laura'
+printenv FIRST_NAME
+FIRST_NAME="laura"
+printenv FIRST_NAME
+FIRST_NAME= "laura"
+printenv USER
+printenv HOST
+printenv SHELL
+printenv TERM
+echo $XYZ
+echo 'My home directory is $HOME'
+echo "My home directory is $HOME"
+echo '$(date)'
+echo "$(date)"
+echo $(date)
+$(date)
+echo '$(date)'
+echo $SHELL
+echo $TERM
+echo $HOST
+echo $USER
+echo SHELL
+$SHELL
+echo $SHELL
+echo SHELL
+echo $TERM
+echo TERM
+echo $HOST
+echo HOST
+echo $USER
+echo USER
+printenv
+printenv SHELL
+printenv TERM
+printenv HOST
+printenv USER
+whoami
+'My home directory is $HOME'
+echo 'My home directory is $HOME'
+echo "My home directory is $HOME"
+echo '$(date)'
+echo "$(date)"
+echo $(date)
+echo "$(date)\
+"
+echo "World is mine"
+echo "World\ is mine"
+echo "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa bbbbbbbbbbbbb cccccccc ddddd"
+$(date)
+echo $(date)
+echo "World\\
+is mine"
+echo "World" \\
+" is mine too"
+echo "World\
+echo this is backslash \\ 
+echo "Hello \"World\""
+echo "this is \n new line"
+echo "there is a tab \t here"
+echo this is echo of echo
+echo this is ; echo of echo
+echo this is \; echo of echo
+echo command cat
+cat
+cat /etc/os-release
+cat /proc/cpuinfo
+cat -n
+cd ./Data/shell
+cd
+cd ./Data/shell
+cat Text_example.txt
+cat -n Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cd
+cat Data/shell/Text_example.txt
+cd Data/opentraveldata
+cat ../shell/Text_example.txt
+cd
+cd ./Data
+ls
+cd
+cd ./Data/shell
+ls
+cd
+cd ./Data/opentraveldata
+cat ../shell/Text_example.txt
+cat /home/dsc/Data/shell/Text_example.txt
+cat ~/Data/shell/Text_example.txt
+pwd
+echo $PWD
+echo \$PWD
+echo Navigation command
+cd
+cd /
+cd ./
+cd ../
+cd
+cd ./Data/shell
+cd ../
+cd ./
+cd ~
+cd ./Data/opentraveldata
+cd -
+cd ./Data/shell
+cd
+cd ./Data
+cd ./Shell
+cd ./opentraveldata
+cd -
+ls
+cd ./airline_tickets
+cd ../challenge
+cd ../shell
+cd -
+pwd
+cd
+echo File utilities
+ls
+cd ./Data
+ls
+ls -1
+ls -s
+cd ./opentraveldata
+ls -s
+ls -1 -s
+ls -1s
+ls -s1
+ls -lH
+ls -a
+cd
+ls -a
+ls -l
+ls -lH
+cd ./Da
+cd ./Data
+ls -l
+ls - LH
+ls - lH
+ls -lH
+ls -la
+ls -l .zshrc
+ls - l .README.md
+ls -l .README.md
+ls -l README.md
+ls -al ./shell
+ls -S
+ls -S ./opentraveldata
+cd ./opentraveldata
+ls -l
+ls -S
+ls -lSr
+ls -lS
+ls -lt
+ls -ltr
+ls -ltX
+ls -lX
+cd ../Data/
+cd
+cd ./Data/shell
+ls -l
+chmod u+x,o+rw Text_example.txt
+ls -l
+chmod go+x Text_example.txt
+ls -l
+chmod 664 Text_example.txt
+ls -l
+echo Crear directorios y ficheros
+cd
+mkdir one
+ls
+mkdir this and that
+ls
+mkdir one/two/three
+ls
+mkdir -p one/two/three
+ls
+cd ./one
+ls
+cd ./two
+ls
+cd ./three
+touch file_example
+ls
+touch file_example2 file_example3
+ls
+ls -l
+touch file_example
+ls -l
+cd ../
+cp ./three ../
+cp ~/one/two/three ~/one
+cp -r ~/one/two/three ~/one
+ls
+cd ../
+ls
+cd ./three
+ls
+cp file_example3 ~/one
+cd ../
+ls
+cd ./three
+ls
+ls -l
+ls -l ~/one
+chmod 700 ~/one/three/file_example3
+chmod 700 ~/one/three/file_example2
+chmod 700 ~/one/three/file_example
+ls -l
+cp file_example2 ~/one
+cp -p file_example ~/one
+cd ../
+ls -l
+chmod 777 ~/one/three/file_example
+chmod 777 ~/one/three/file_example2
+ls -l ./three
+ls -l
+cp -i file_example ./two
+cp -i file_example ./three
+ls -l ./three
+cp file_example ~/this
+mv -i ./three/file_example ~/this
+mv -i file_example_rename ~/this/file_example
+mv -i ~/this/file_example ~/this/file_example_rename
+ls -l ~/this
+rm -r ~/and
+cd
+ls
+rm -rf ./that
+ls
+rm -r ./one
+ls
+rm -v ./this/file_example_rename
+ls -l ./this
+rm -i ./this
+rm -ri ./this
+ls
+rm -ri ./this
+ls
+echo Quick exercises
+gedit
+mkdir first_dir
+cd ./first_dir
+touch text_file.txt
+ls
+ls -l
+chmod g+x,o+w text_file.txt
+ls -l
+mkdir sub1 sub2 text_file
+cp text_file.txt ./sub1
+ls -l ./sub1
+mv ./sub1/text_file.txt ./sub2/text_file.txt.2
+ls -l ./sub1
+ls -l ./sub2
+cp -r ./sub1 ./sub3
+ls -l ./sub3
+mv ./sub2/text_file.txt.2 ./sub2/text_file.txt.backup
+ls -l ./sub2
+mv ./sub2/text_file.txt.backup ./.text_file.txt.backup
+ls -a
+ls
+ls ./sub2
+ls -l ./sub2
+rm -ri ./sub2
+ls
+cd
+ls
+cd ./DS_CL_files
+ls
+cd ./master-kschool
+ls
+cd
+cd ./Repos
+ls
+cd ./Command_lines_MasterDS
+ls
+cd
+ls -a
+cat .history
+cd ./Repos
+cd ./Command_lines_MasterDS
+cp ~/.history .
+ll
+ls -a
+git add .histoory
+git add .history
+git commit -m "Revising Command Line Basic Tools at home"
+git log
+git push
+ls
+man bash
+man ls
+cat --help
+man cat
+man less
+ls
+cd ./Data/opentraveldata
+ls
+less optd_airlines.csv 
+less test_file
+less -N ref_airline_nb_of_flights.csv
+cat ref_airline_nb_of_flights.csv
+less ref_airline_nb_of_flights.csv
+less -N ref_airline_nb_of_flights.csv
+less -S ref_airline_nb_of_flights.csv
+less ref_airline_nb_of_flights.csv
+ls
+less optd_aircraft.csv
+less -S optd_aircraft.csv
+less optd_aircraft.csv
+less -S optd_aircraft.csv
+less -N ref_airline_nb_of_flights.csv
+c
+cd
+cd ./Data/shell/
+ls
+less -N Finn.txt
+less -N ../opentraveldata/optd_aircraft.csv
+tree --help
+man tree
+tree --h
+tree -h
+cd
+tree --help
+sudo tree --help
+sudo apt install tree
+tree
+sudo apt install tree
+alias
+tree ./Data
+type ls
+type ll
+alias sl='ls'
+type sl
+alias p='pwd'
+alias gs='git status'
+alias gl='git log'
+type gs
+alias ga="git add"
+type ga
+alias gu='git add -u'
+alias gc='git commit -m'
+type gc
+H='| head'
+L='| less'
+T="| tail"
+type H
+which is
+which ls
+which python
+which -a python
+whereis python
+cat .history
+exit
+cd ./Repos
+cd ./Command_lines_MasterDS
+cp ~/.history .
+cp ~/.history History
+git add .history
+git commit -m "Revising Command Line Basic Tools at home part 2"
+git log
+git push
+cd
+cd ./Data
+ls -a
+cat README.md
+ls
+cd
+ls
+cd ./Data/shell
+cd
+ls
+cd ./Data/shell
+ls -a
+cd
+cat .history
+cd ./Data/shell
+la
+cd
+echo $HISTFILE
+"echo $HISTFILE"
+~/.history
+man history
+history --help
+history -h
+history
+history -i
+history -f
+history -50
+history | tail -10
+cd ./Data/opentraveldata
+ls
+ls -l
+tail -c 50 optd_airlines.csv
+tail -c +50 optd_airlines.csv
+tail -n 50 optd_airlines.csv
+tail -n 5 optd_airlines.csv
+tail -n +5 optd_airlines.csv
+tail -f optd_airlines.csv
+tail -3 optd_aircraft.csv
+tail -n -1 optd_aircraft.csv
+cat optd_aircraft.csv
+tail -n -1 optd_aircraft.csv
+tail -3 optd_aircraft.csv
+tail -1  optd_aircraft.csv
+tail -n 1 optd_aircraft.csv
+tail -3 optd_aircraft.csv
+tail -n -3 optd_aircraft.csv
+tail -n 3 optd_aircraft.csv
+tail -n +3 optd_aircraft.csv
+head optd_aircraft.csv
+head -n 3 optd_aircraft.csv
+head optd_aircraft.csv
+head -n 450 optd_aircraft.csv
+head -n -450 optd_aircraft.csv
+head -3 optd_aircraft.csv
+head -n +3 optd_aircraft.csv
+ls
+cat test_file
+wc test_file
+la -l
+wc -c test_file
+wc --bytes test_file
+wc --chars test_file
+wc -m test_file
+wc -l test_file
+wc --lines test_file
+wc --words test_file
+wc -w test_file
+echo "How much line/words/letters do I have?" | wc
+cat test_file
+cat test_file | wc
+wc test_file
+cat test_file | wc -l
+tail -c -1k optd_aircraft.csv| wc
+head -c 1K optd_aircraft.csv
+head -c 1K optd_aircraft.csv | wc
+tail -c -1k optd_aircraft.csv| wc
+wc -l < hello-world
+cd
+ls
+cd ./Data/opentraveldata
+ls
+wc -l < test_file
+<test_file wc -l
+cat test_file | wc -l
+<test_file cat | wc -l
+ls -S
+echo "Quick exercise: save infom of the largest file located in opentraveldata"
+ls -s
+ls -lS
+head ls -lS
+ls -lS | head
+ls -lS | head -1
+ls -lS | head -2
+ls -lS | head -2 | touch largest_file.txt
+ls
+cat largest_file.txt
+ls -lS | head -2 | cp largest_file.txt
+cat largest_file.txt
+ls -lS  | head -2 < largest_file.txt
+cat largest_file.txt
+ls -lS  | head -2 > largest_file.txt
+cat largest_file.txt
+ls -lS  | head -2 | tail -1
+ls -lS  | head -2 | tail -1 > largest_file.txt
+cat largest_file.txt
+echo "How many words do first 5 lines of the Finn.txt have?"
+ls
+cd ../
+ls
+cd ./shell
+ls
+head -5 Finn.txt | wc -w
+ls
+head -3 Text_example.txt | cat -n
+echo "Use Text_example.txtto generate a new file with the same content but with line number at the beginning of each line."
+cat -n Text_example.txt
+cat -n Text_example.txt > Text_example.txt.numerado
+ls
+cat Text_example.txt.numerado
+echo "Generate a new file with twice the content of  �Text_example.txt � one after another inside the file. (one full text content after another"
+cp Text_example.txt ./ >> cat Text_example.txt
+cat Text_example.txt Text_example.txt
+cat Text_example.txt Text_example.txt >> Text_example.txt.doble
+ls
+cat Text_example.txt.doble
+cat /etc/os-release
+echo "Generate a file with creation timestamp and name of the user who created it on the first line."
+echo "This file is created by KSCHOOL on "$DATE""
+echo "This file is created by KSCHOOL on $DATE"
+echo "This file is created by KSCHOOL on $(date)"
+echo "This file is created by KSCHOOL on $(date)">> authorname_file
+ls
+cat authorname_file
+cd
+tail -20 .history >> History_exercise
+cat History_exercise
+cat -n History_exercise
+echo "Print content of Text_example.txtexcept first 2 and last 3 lines"
+cd ./Data/shell
+ls
+cat Text_example.txt
+tail +2 Text_example.txt
+tail +3 Text_example.txt | head -3
+tail +3 Text_example.txt
+tail -n +3 Text_example.txt
+cat Text_example.txt
+tail -n +3 Text_example.txt | head -n -2
+wc -l ../opentraveldata/optd_aircraft.csv
+cat ../opentraveldata/optd_aircraft.csv | wc -l
+cd
+cd ./Repos
+cd ./Command_lines_MasterDS
+cp ~/.history .
+git add .history
+git commit -m "Revising Command Line Basic Tools at home part 3"
+git log
+git push
+cd ./Data/opentraveldata
+ls
+cd ../shell
+ls
+cd
+ls
+find -name "test_file*"
+find -iname "tESt_file*"
+find -type d -name "test_file*"
+find -type f -name "test_file*"
+cd
+find -maxdepth 5 -type f -name "text_file*"
+find -maxdepth 5 -type f -iname "text_file*"
+find -type f -name "text_file*" -maxdepth 5
+find -maxdepth 5 -type f -perm777 -name "text_file*"
+find -maxdepth 5 -type f -perm 777 -name "text_file*"
+find -maxdepth 5 -type f ! -perm 777 -name "text_file*"
+find -maxdepth 1 -empty
+find -maxdepth 1 -not -empty
+find -maxdepth 1 ! -empty
+find ./Data -size +10M
+find -maxdepth 2 -size -1k
+find . -mmin 60
+find . -mmmin -60
+find . -mmin -60
+find . -maxdepth 1 -mtime -1
+find . -maxdepth 1 -mtime -2
+find . -maxdepth 1 -mtime -1 -! -name ".*"
+find -maxdepth 5 -type f -name "text_file*"  -exec echo "FOUND IT" \;
+find -maxdepth 5 -type f -name "text_file*"
+find -maxdepth 5 -type f -name "text_file*"  -exec ls -l {} \;
+find -maxdepth 5 -type f -name "text_file*" -ok ls -l 
+find -maxdepth 5 -type f -name "text_file*" -ok ls -l {} \;
+find -maxdepth 5 -type f -name "text_file*"  -exec ls -l {} \; -exec head -2 
+find -maxdepth 5 -type f -name "text_file*"  -exec ls -l {} \; -exec head -2 {} \;
+find -maxdepth 5 -type f -name "text_file*" -ok rm -r {} \;
+find -maxdepth 5 -type f -name "text_file*"  -exec ls -l {} \; -exec head -2 {} \;
+find -maxdepth 5 -type f -name "text_file*"  -exec ls -l {} \; -exec head -2 {} +;
+find . -maxdepth 2 -type f -mmin -60 -exec ls -l {} \; -exec echo "YES" \; -exec sleep 5 \;
+find . -maxdepth 2 -type f -mmin -60 -exec zsh -c -exec ls -l {} | wc \;
+find . -maxdepth 2 -type f -mmin -60 -exec zsh -c " ls -l {} \| wc " \;
+find . -maxdepth 2 -type f -mmin -60 -exec zsh -c " ls -l {} | wc " \;
+find . -maxdepth 2 -type f -mmin -60 -exec sh -c " ls -l {} \;"| wc
+find . -maxdepth 2 -type f -mmin -60 -exec sh -c " ls -l {} \;" | wc
+find . -maxdepth 2 -mmin -60
+find . -maxdepth 2 -empty -! -perm 777
+cd ./Data
+find . -maxdepth 2 -type f -exec ls -l {} \;ç
+find . -maxdepth 2 -type f -exec ls -l {} \;
+find . -maxdepth 2 -type f -exec ls -lS {} \;
+find . -maxdepth 2 -type f -exec zsh -c "ls -lS {} | head -3" \;
+find . -maxdepth 2 -type f -exec echo {} \; -exec zsh -c "ls -lS {} | head -3" \;
+find . -maxdepth 2 -type f -exec echo {} \; -exec zsh -c "ls -lS {} | head 3" \;
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lS {} | head 3" \;
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lS {} | head -3" \;
+cd
+cd ./Repos/Command_lines_MasterDS
+cp ~/.history .
+git add .history
+git commit -m "Revising Command Line Basic Tools at home part 4"
+git log
+git push
+cd
+pwd
+whoami
+ll
+ls -lrt
+cd ./Repos
+ll
+mkdir repos20200925
+cd ./repos20200925
+pwd
+mkdir toni
+cd ./toni
+mkdir firststeps_git
+cd ./firststeps_git
+echo "My first steps in git" >> README.md
+ll
+git init
+git status
+git add README.md
+git commit -m "First commit: README.md file included"
+git remote add origin https://github.com/Laurajimo/Firststeps_git.git
+git push -u origin master
+cat ~/.gitconfig
+git ls-files
+touch prueba.txt
+git ls-files
+git add prueba.txt
+git ls-files
+git status
+echo "estoy cambiando el archivo sin hacer commit" >> prueba.txt
+cat prueba.txt
+git status
+git checkout -- prueba.txt
+cat prueba.txt
+echo "estoy cambiando el archivo sin hacer commit otra vez" >> prueba.txt
+git add prueba.txt
+git commit -m "he puesto algo mÃ�s en prueba.txt"
+git reset origin/master
+rm prueba.txt
+rm README.md
+LL
+ll
+git checkout README.md
+ll
+git status
+touch exercise.txt
+git add exercise.txt
+git commit -m "ejercicio de prueba"
+git push origin master
+git status
+git rm exercise.txt
+git push origin master
+ll
+git push
+git status
+git commit -m "Borro el archivo prueba para hacer posteriormente el push y que quede registrado en repo remoto"
+git push
+git log
+cp ~/.history .
